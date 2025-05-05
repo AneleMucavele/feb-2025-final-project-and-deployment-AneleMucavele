@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OUDEES HAIR</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">OUDEES HAIR</div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="booking.html">Booking</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="contact.html">Contact</a>
+      <a href="cart.html">
+        <span style="font-size: 30px;">🛒</span>
+      </a>
+      
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Transform Your Look with OUDEES HAIR</h1>
+      <p>Unlock your crown’s full potential with our luxurious wigs and hair solutions. We create transformations that turn heads!</p>
+      <a href="gallery.html" class="cta-button">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>About OUDEES HAIR</h2>
+    <p>At Oudees Hair, we offer high-quality wigs, styling, and customization services to bring you beauty, confidence, and elegance. Our hair solutions are designed to fit your unique style, ensuring you look and feel your best.</p>
+  </section>
+
+  <!-- Featured Products Section -->
+  <section class="featured-products">
+    <h2>Our Collection</h2>
+    <div class="product-grid">
+      <div class="product-item">
+        <img src="images/Bob1.jpg" alt="Bob Wig" />
+        <h3>12 inch DD Peruvian 13x4</h3>
+        <p>R1 800</p>
+        <button class="add-to-cart" onclick="addToCart('12 inch DD Peruvian 13x4', 1800)">Add to Cart</button>
+
+      </div>
+      <div class="product-item">
+        <img src="images/jerry2.jpg" alt="Curly Wig" />
+        <h3>18 inch Curly Wig</h3>
+        <p>R2 950</p>
+        <button class="add-to-cart" onclick="addToCart('18 inch Jerry curls 13x4', 2950)">Add to Cart</button>
+
+      </div>
+      <div class="product-item">
+        <img src="images/Long1.jpg" alt="Straight Wig" />
+        <h3>18 inch Straight Wig</h3>
+        <p>R2 750</p>
+        <button class="add-to-cart" onclick="addToCart('18 inch DD Peruvian 13x4', 2750)">Add to Cart</button>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Cart Section -->
+  <section class="cart-section" id="cart">
+    <h2>Your Cart</h2>
+    <ul id="cart-items"></ul>
+    <p id="cart-total">Total: R0</p>
+  </section>
+  
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <h2>Customer Testimonials</h2>
+    <div class="testimonial-item">
+      <img src="images/tasha.jpg" alt="Customer 1" />
+      <p>"I absolutely love my wig from Oudees Hair! It’s so natural and comfortable. I feel so confident every time I wear it!"</p>
+      <p class="customer-name">Sarah L. - ⭐⭐⭐⭐⭐</p>
+    </div>
+    <div class="testimonial-item">
+      <img src="images/natalie.jpg" alt="Customer 2" />
+      <p>"The customer service was exceptional, and my wig fits perfectly. I highly recommend Oudees Hair!"</p>
+      <p class="customer-name">Michelle D. - ⭐⭐⭐⭐⭐</p>
+    </div>
+    <div class="testimonial-item">
+      <img src="images/fiona.jpg" alt="Customer 3" />
+      <p>"I’m in love with my new wig! It’s exactly what I wanted. The quality is amazing!"</p>
+      <p class="customer-name">Rachel K. - ⭐⭐⭐⭐⭐</p>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta">
+    <h2>Ready to Find Your Perfect Wig?</h2>
+    <p>Shop our collection today or book a consultation with one of our experts!</p>
+    <a href="gallery.html" class="cta-button">Shop Now</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Oudees Hair. All rights reserved.</p>
+    <p>Email: info@oudeeshair.com | Phone: +123 456 7890</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
